@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeJackShooter_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x85B40AC5,
+				0xCB7E7498,
 				0xC2E3C741,
 				METADATA_PARAMS(nullptr, 0)
 			};
