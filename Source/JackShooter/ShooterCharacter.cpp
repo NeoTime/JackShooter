@@ -2,6 +2,7 @@
 
 
 #include "ShooterCharacter.h"
+#include "GameFramework/SpringArmComponent.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter()
@@ -9,6 +10,11 @@ AShooterCharacter::AShooterCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// create a camera boom (pulls  in towards character if collision)
+	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	CameraBoom->SetupAttachment(RootComponent);
+	CameraBoom->TargetArmLength = 300.f; // camera follows at this distance
+	CameraBoom->bUsePawnControlRotation = true;
 }
 
 // Called when the game starts or when spawned
@@ -16,33 +22,6 @@ void AShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	UE_LOG(LogTemp, Warning, TEXT("BeginPlay() called"));
-
-	int myInt{ 42 };
-	UE_LOG(LogTemp, Warning, TEXT("int myInt: %d"), myInt);
-
-	float myFloat{ 3.14159 };
-	UE_LOG(LogTemp, Warning, TEXT("float myFloat: %f"), myFloat);
-
-	double myDouble{ 0.007 };
-	UE_LOG(LogTemp, Warning, TEXT("double myDouble: %lf"), myDouble);
-
-	char myChar{ 'J' };
-	UE_LOG(LogTemp, Warning, TEXT("char myChar: %c"), myChar);
-
-	wchar_t wideChar{ L'J' };
-	UE_LOG(LogTemp, Warning, TEXT("wchar_t wideChar: %lc"), wideChar);
-
-	bool myBool{ true };
-	UE_LOG(LogTemp, Warning, TEXT("bool myBool: %d"), myBool);
-
-	UE_LOG(LogTemp, Warning, TEXT("int: %d, float: %f, bool: %d"), myInt, myFloat, myBool);
-
-	FString myString{ TEXT("My String!!!") };
-	UE_LOG(LogTemp, Warning, TEXT("FString myString: %s"), *myString);
-
-	UE_LOG(LogTemp, Warning, TEXT("Name of instance: %s"), *GetName());
-
 
 }
 
