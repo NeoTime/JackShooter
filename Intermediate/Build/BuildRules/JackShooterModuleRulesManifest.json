@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UnrealEngineProjects\\JackShooter\\Source\\JackShooter\\JackShooter.Build.cs",
+		"D:\\UnrealEngineProjects\\JackShooter\\Source\\JackShooter.Target.cs",
+		"D:\\UnrealEngineProjects\\JackShooter\\Source\\JackShooterEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

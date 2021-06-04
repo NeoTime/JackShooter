@@ -1,0 +1,2 @@
+D:\UnrealEngineProjects\JackShooter\Intermediate\Build\Win64\UE4Editor\Development\JackShooter\Definitions.JackShooter.h
+D:\UnrealEngineProjects\JackShooter\Source\JackShooter\JackShooter.h

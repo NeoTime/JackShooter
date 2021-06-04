@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\JackShooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0A216806-7720-47C3-B6E8-5975DE4E0D57}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JackShooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\JackShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F72966CA-E9CF-40F7-B177-E6FFE63D3D8A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\JackShooter">
+      <UniqueIdentifier>{5D993E0D-C96B-4BE9-8DEA-52595DE90B0C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JackShooter\JackShooter.Build.cs">
+      <Filter>Source\JackShooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\JackShooter\JackShooter.cpp">
+      <Filter>Source\JackShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JackShooter\JackShooter.h">
+      <Filter>Source\JackShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JackShooter\JackShooterGameModeBase.cpp">
+      <Filter>Source\JackShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JackShooter\JackShooterGameModeBase.h">
+      <Filter>Source\JackShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JackShooter\ShooterCharacter.cpp">
+      <Filter>Source\JackShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JackShooter\ShooterCharacter.h">
+      <Filter>Source\JackShooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

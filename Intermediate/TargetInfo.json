@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "JackShooter",
+			"Path": "D:\\UnrealEngineProjects\\JackShooter\\Source\\JackShooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JackShooterEditor",
+			"Path": "D:\\UnrealEngineProjects\\JackShooter\\Source\\JackShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
